@@ -1,7 +1,7 @@
 MIT License
 
 Copyright (c) 2026 LTY4869822
-Copyright (c) 2026 Jayden Davis (INKWAVE-derived portions)
+Copyright (c) 2026 Jayden Davis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,6 +20,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Bundled font software remains under its respective SIL Open Font License 1.1.
-See THIRD_PARTY_NOTICES.md and the font license files for details.
