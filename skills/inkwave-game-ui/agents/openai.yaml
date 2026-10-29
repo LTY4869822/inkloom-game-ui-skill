@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inkloom · 墨织"
+  short_description: "分析游戏题材、设定与玩法，自主设计配色、布局和反馈，保留墨水贴纸风格"
+  default_prompt: "使用 $inkwave-game-ui，先分析当前游戏的题材、设定和玩法，再自主设计并实现配色、布局、交互与动效，保留 INKWAVE 风格与现有玩法，配色不限原作预设。"

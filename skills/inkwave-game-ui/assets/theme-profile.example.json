@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "exampleOnly": true,
+  "name": "夜巡探索 · 海绿与旧黄铜",
+  "gameProfile": {
+    "premise": "虚构示例：玩家在雾港调查停航事件，携灯寻找线索",
+    "evidence": ["本例人为给定的设定，非真实项目分析结果"],
+    "experience": ["紧张探索", "可停下来阅读线索"],
+    "coreLoop": "观察环境 → 收集与比对线索 → 决定探索路线",
+    "input": ["键鼠", "手柄"],
+    "protectedRegion": "环境线索与交互物轮廓",
+    "constraints": ["单人，无敌我阵营色", "保留现有警告语义", "读取线索时减少运动"]
+  },
+  "colors": {
+    "ink": "#101c19",
+    "surface": "#1c3028",
+    "surfaceAlt": "#263e34",
+    "text": "#f2edd8",
+    "muted": "#c7c9b7",
+    "primary": "#c9b16d",
+    "secondary": "#669b89",
+    "action": "#f0d896",
+    "focus": "#e8f2b4",
+    "danger": "#f08170",
+    "ring": "#f2edd8"
+  },
+  "colorReasons": {
+    "surface": "海绿暗面板呼应雾港，文字与场景隔离",
+    "primary": "旧黄铜表达灯具/票据，用于标题与选中线索",
+    "secondary": "低饱和绿表示比较/进度，不代表敌方",
+    "action": "较亮暖色表示现在可执行的操作",
+    "danger": "独立珊瑚警示，搭配感叹号/说明，不仅靠颜色"
+  },
+  "layout": {
+    "exploration": "仅常驻必要的灯具资源与当前目标，保护环境中央；线索详情按需展开",
+    "evidenceBoard": "比对区居中，条目与引用贴近相关线索；不添加角色展示栏",
+    "reading": "稳定平直文本面板，标题用墨边票签，正文不倾斜",
+    "narrow": "线索列表与详情分屏切换，主操作保持可达；不等比缩小全部控件"
+  },
+  "interaction": {
+    "preview": "焦点显示线索摘要，确认打开详情，返回恢复原条目焦点",
+    "commit": "沿用项目已有的线索关联/取消规则，无额外确认层",
+    "feedback": "低过冲、局部填充与按压；危险信息即时显示"
+  },
+  "motion": {
+    "focusMs": 200,
+    "floodMs": 250,
+    "pressMs": 80,
+    "enterMs": 260,
+    "staggerMs": 24,
+    "focusScale": 1.012,
+    "focusShiftPx": 2,
+    "pressScale": 0.98,
+    "enterOffsetPx": 12,
+    "enterScale": 0.98,
+    "spring": [0.22, 1, 0.36, 1]
+  },
+  "styleAnchors": ["厚字墨边票签", "暖纸切边与硬影", "有机墨形焦点", "清楚的按压与持久选中"],
+  "validation": ["实色文字对比只是起点，检查真实雾景/亮场景", "线索读取无循环抖动", "没有生成虚假阵营/战斗计时"]
+}

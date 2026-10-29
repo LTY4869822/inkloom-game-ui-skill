@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "provenance": {
+    "repository": "https://github.com/amiaoapp/inkwave",
+    "commit": "7c970e65beea8f54ca94d2ac326674e0c2e7279b",
+    "researchDate": "2026-10-29",
+    "source": [
+      "styles/ui.css",
+      "styles/hud.css",
+      "src/config.js",
+      "src/ui/ui-util.js"
+    ],
+    "note": "source preserves original research values only; adaptation guides context-driven project themes without restricting colors, positions or motion to source defaults"
+  },
+  "source": {
+    "unit": {
+      "css": "min(1vw, 1.7778vh)",
+      "reference": [
+        1600,
+        900
+      ],
+      "pxAtReference": 16
+    },
+    "colors": {
+      "ink": "#15121c",
+      "ink2": "#1f1a2c",
+      "ink3": "#2c2540",
+      "muted": "#c3bdd6",
+      "white": "#ffffff",
+      "action": "#e3ff2e",
+      "danger": "#ff3d5e"
+    },
+    "palettes": [
+      {
+        "id": "tangerine-cobalt",
+        "a": "#ff8a14",
+        "b": "#2f5bff"
+      },
+      {
+        "id": "bubblegum-mint",
+        "a": "#ff3f9e",
+        "b": "#18d48c"
+      },
+      {
+        "id": "lemon-grape",
+        "a": "#f2e312",
+        "b": "#8a3cff"
+      },
+      {
+        "id": "aqua-cherry",
+        "a": "#10d2e6",
+        "b": "#ff4150"
+      },
+      {
+        "id": "lime-magenta",
+        "a": "#a6f01a",
+        "b": "#e02cd8"
+      }
+    ],
+    "colorVisionPalette": {
+      "a": "#ffd21a",
+      "b": "#2a52ff"
+    },
+    "shade": {
+      "dark": -0.32,
+      "deep": -0.62,
+      "light": 0.45,
+      "inkLuminanceThreshold": 0.36
+    },
+    "type": {
+      "displayFamily": "Titan One",
+      "displayWeight": 400,
+      "bodyFamily": "Rubik",
+      "bodyWeight": 500,
+      "labelWeight": 900,
+      "displayStrokeEm": 0.17,
+      "sizes": {
+        "xs": "max(11px, .8u)",
+        "s": "max(12px, .95u)",
+        "m": "max(13.5px, 1.1u)",
+        "l": "max(16px, 1.4u)"
+      }
+    },
+    "shape": {
+      "panelRadiusU": 1.5,
+      "buttonRadiusU": 1.2,
+      "stickerWhiteRingU": 0.16,
+      "stickerOuterRingU": 0.42,
+      "stickerShadowXU": 0.42,
+      "stickerShadowYU": 0.52,
+      "tapeTiltDeg": -2
+    },
+    "motion": {
+      "spring": [
+        0.34,
+        1.56,
+        0.64,
+        1
+      ],
+      "spring2": [
+        0.26,
+        1.9,
+        0.5,
+        1
+      ],
+      "out": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "in": [
+        0.6,
+        0,
+        0.8,
+        0.25
+      ],
+      "enterMs": 600,
+      "enterBaseDelayMs": 40,
+      "staggerMs": 38,
+      "exitMs": 280,
+      "focusMs": 420,
+      "inkFloodMs": 550,
+      "pressReboundMs": 320,
+      "segmentMs": 450,
+      "lightWipeMs": 520,
+      "focusScale": 1.045,
+      "focusShiftU": 0.7,
+      "pointerPressScale": 0.955,
+      "keyboardPressStartScale": 0.93,
+      "cursorSpring": {
+        "stiffness": 260,
+        "damping": 20,
+        "maxDeltaSeconds": 0.1
+      }
+    },
+    "layout": {
+      "mainNavWidthU": 30,
+      "mainLeftU": 3.8,
+      "setupRailWidthU": 25.5,
+      "headLeftU": 3.4,
+      "headTopU": 2.2
+    },
+    "layer": {
+      "hud": 10,
+      "touch": 15,
+      "menu": 20,
+      "overlay": 30,
+      "focusWithinMenu": 50
+    },
+    "timerThresholdSeconds": {
+      "urgent": 60,
+      "final": 10
+    }
+  },
+  "adaptation": {
+    "designMode": "analyze-game-context-before-project-theme",
+    "defaultPalette": null,
+    "palettePolicy": "unrestricted-contextual-colors; source.palettes are optional research references, not a candidate limit",
+    "themeExample": "theme-profile.example.json",
+    "requiredAnalysis": ["premise-and-evidence", "experience", "core-loop", "decision-priorities", "input-and-viewport", "existing-semantic-colors"],
+    "projectColorRoles": ["ink", "surface", "surfaceAlt", "text", "muted", "primary", "secondary", "action", "focus", "danger", "ring"],
+    "layoutPolicy": "choose anchors, density and reading order per screen task, view and device; source.layout is not binding",
+    "motionPolicy": "tune navigation, urgent state, transitions and rewards separately; reduced motion overrides decorative movement",
+    "minHitTargetCssPx": 44,
+    "chineseTitleWeight": 900,
+    "chineseStrokeEm": [
+      0.07,
+      0.12
+    ],
+    "chineseTitleLineHeight": [
+      1.1,
+      1.2
+    ],
+    "lowMotionFadeMs": 120,
+    "preserveNativeWebTab": true,
+    "portrait": "reflow or nonblocking orientation hint; implement actual touch inputs if portrait play is supported"
+  }
+}
